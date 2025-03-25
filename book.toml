@@ -1,0 +1,45 @@
+[book]
+title = "Blender Book"
+authors = ["Deface"]
+language = "en"
+description = "A powerful command-line interface for interacting with the BLENDER smart contract on the Pepe Unchained blockchain."
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "light"
+preferred-light-theme = "light"
+hide-theme-toggle = true
+smart-punctuation = true
+git-repository-url = "https://github.com/Blender4Pepu/blender_book"
+git-repository-icon = "fa-github"
+theme-toggle = false
+
+[output.html.playground]
+editable = false   
+copyable = true   
+copy-js = false    
+line-numbers = true 
+runnable = false    
+
+[output.html.fold]
+enabled = true
+level = 1
+
+[build]
+create-missing = true
+
+[output.html.print]
+enable = true
+page-break = true
+
+[output.html.search]
+enable = true           
+limit-results = 10     
+teaser-word-count = 30  
+use-boolean-and = true  
+boost-title = 2         
+boost-hierarchy = 1    
+boost-paragraph = 1     
+expand = true            
+heading-split-level = 3 
+copy-js = true
